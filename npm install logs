@@ -1,0 +1,1247 @@
+ztluo@iZj6c386cb1wnu1cox1kteZ:~/github.com/composer-sample-applications-hlfv1/packages/getting-started$ npm install
+npm WARN deprecated fs-promise@1.0.0: Use mz or fs-extra^3.0 with Promise Support
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+
+> getting-started@1.0.0 preinstall /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started
+> composer --version || { echo 'Please first run npm install -g composer-cli' ; exit 1;} 
+
+
+composer-cli                   v0.7.2
+composer-admin                 v0.7.2
+composer-client                v0.7.2
+composer-common                v0.7.2
+composer-runtime-hlf           v0.7.2
+
+npm WARN prefer global marked@0.3.6 should be installed with -g
+
+> hashtable@2.0.2 install /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/hashtable
+> node-gyp configure build
+
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+make: Entering directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/hashtable/build'
+  CXX(target) Release/obj.target/native/src/hashtable.o
+  SOLINK_MODULE(target) Release/obj.target/native.node
+  COPY Release/native.node
+make: Leaving directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/hashtable/build'
+
+> pkcs11js@1.0.9 install /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/pkcs11js
+> npm run build
+
+
+> pkcs11js@1.0.9 build /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/pkcs11js
+> node-gyp configure build
+
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+make: Entering directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/pkcs11js/build'
+  CXX(target) Release/obj.target/pkcs11/src/main.o
+  CXX(target) Release/obj.target/pkcs11/src/dl.o
+  CXX(target) Release/obj.target/pkcs11/src/const.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/error.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/v8_convert.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/template.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/mech.o
+../src/pkcs11/mech.cpp: In member function ‘void Mechanism::Free()’:
+../src/pkcs11/mech.cpp:121:15: warning: deleting ‘void*’ is undefined [enabled by default]
+   delete(param);
+               ^
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/param.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/param_aes.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/param_rsa.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/param_ecdh.o
+  CXX(target) Release/obj.target/pkcs11/src/pkcs11/pkcs11.o
+  CXX(target) Release/obj.target/pkcs11/src/async.o
+  CXX(target) Release/obj.target/pkcs11/src/node.o
+  SOLINK_MODULE(target) Release/obj.target/pkcs11.node
+  COPY Release/pkcs11.node
+make: Leaving directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/pkcs11js/build'
+
+> sleep@3.0.1 install /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/sleep
+> node-gyp rebuild
+
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+gyp WARN download NVM_NODEJS_ORG_MIRROR is deprecated and will be removed in node-gyp v4, please use NODEJS_ORG_MIRROR
+make: Entering directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/sleep/build'
+  CXX(target) Release/obj.target/node_sleep/sleep.o
+  SOLINK_MODULE(target) Release/obj.target/node_sleep.node
+  COPY Release/node_sleep.node
+make: Leaving directory `/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/sleep/build'
+
+> grpc@1.2.4 install /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/fabric-client/node_modules/grpc
+> node-pre-gyp install --fallback-to-build
+
+[grpc] Success: "/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/fabric-client/node_modules/grpc/src/node/extension_binary/grpc_node.node" is installed via remote
+
+> grpc@1.0.0 install /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/grpc
+> node-pre-gyp install --fallback-to-build
+
+[grpc] Success: "/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/grpc/src/node/extension_binary/grpc_node.node" is installed via remote
+
+> protobufjs@6.8.0 postinstall /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/protobufjs
+> node scripts/postinstall
+
+
+> getting-started@1.0.0 postinstall /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started
+> scripts/download-hyperledger.sh && scripts/createProfile.sh && npm run startHLF && npm run deployNetwork
+
+
+# Grab the current directory.
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+ cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd 
+ dirname "${BASH_SOURCE[0]}" 
+
+# Shut down the Docker containers that might be currently running.
+
+# TODO change this to alter the default profile which is, by convention, a local running hyperledger fabric
+#rm -rf ~/.composer-connection-profiles/defaultProfile/*
+#rm -rf ~/.composer-credentials/*
+
+
+# delete all existing containers and images
+# This is not used in general usage but this might
+#read -p "Press y to delete all docker containers images" -n 1 -r
+#echo    # (optional) move to a new line
+#if [[ $REPLY =~ ^[Yy]$ ]]
+#then
+#  docker rm $(docker ps -a -q) -f
+#  docker rmi $(docker images -q) -f
+#fi
+
+# Pull and tag the latest Hyperledger Fabric base image.
+docker pull hyperledger/fabric-peer:x86_64-1.0.0-alpha
+x86_64-1.0.0-alpha: Pulling from hyperledger/fabric-peer
+Digest: sha256:9a3221cbabfb71336c225484ad547353236c6764b7a83ce8db60935b983e33aa
+Status: Image is up to date for hyperledger/fabric-peer:x86_64-1.0.0-alpha
+docker pull hyperledger/fabric-ca:x86_64-1.0.0-alpha
+x86_64-1.0.0-alpha: Pulling from hyperledger/fabric-ca
+Digest: sha256:cf493fbbcee3968393a27264e318d5b44024f5d0d14242c0a25981470075e25b
+Status: Image is up to date for hyperledger/fabric-ca:x86_64-1.0.0-alpha
+docker pull hyperledger/fabric-ccenv:x86_64-1.0.0-alpha
+x86_64-1.0.0-alpha: Pulling from hyperledger/fabric-ccenv
+Digest: sha256:a1c28b436a90c2071c03026662cc940cdc7105565932406605e5d768b6d75925
+Status: Image is up to date for hyperledger/fabric-ccenv:x86_64-1.0.0-alpha
+docker pull hyperledger/fabric-orderer:x86_64-1.0.0-alpha
+x86_64-1.0.0-alpha: Pulling from hyperledger/fabric-orderer
+Digest: sha256:38f3ac95256a1306497c0deaad33a9af3f1fa9cf4485f73a0d55cf64f790a612
+Status: Image is up to date for hyperledger/fabric-orderer:x86_64-1.0.0-alpha
+docker pull hyperledger/fabric-couchdb:x86_64-1.0.0-alpha
+x86_64-1.0.0-alpha: Pulling from hyperledger/fabric-couchdb
+Digest: sha256:bc362b6d6d3378a7d97ce41d118f39d6fafcd576deb8fee30a51e1ba42d9c66b
+Status: Image is up to date for hyperledger/fabric-couchdb:x86_64-1.0.0-alpha
+
+rm -rf ~/.composer-connection-profiles/hlfv1/*
+rm -rf ~/.hfc-key-store/*
+
+# create a composer connection profile
+mkdir -p ~/.composer-connection-profiles/hlfv1
+cat << EOF > ~/.composer-connection-profiles/hlfv1/connection.json
+{
+    "type": "hlfv1",
+    "orderers": [
+        "grpc://localhost:7050"
+    ],
+    "ca": "http://localhost:7054",
+    "peers": [
+        {
+            "requestURL": "grpc://localhost:7051",
+            "eventURL": "grpc://localhost:7053"
+        },
+        {
+            "requestURL": "grpc://localhost:7056",
+            "eventURL": "grpc://localhost:7058"
+        }
+    ],
+    "keyValStore": "${HOME}/.hfc-key-store",
+    "channel": "mychannel",
+    "mspID": "Org1MSP",
+    "deployWaitTime": "300",
+    "invokeWaitTime": "100"
+}
+EOF
+
+
+
+> getting-started@1.0.0 startHLF /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started
+> scripts/start-hyperledger.sh
+
+
+# Grab the current directorydirectory.
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+ cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd 
+ dirname "${BASH_SOURCE[0]}" 
+
+#
+cd "${DIR}"/hlfv1
+
+docker-compose -f docker-compose.yml down
+Stopping peer1 ... done
+Stopping peer0 ... done
+Stopping orderer0 ... done
+Stopping ca_peerOrg1 ... done
+Removing peer1 ... done
+Removing peer0 ... done
+Removing orderer0 ... done
+Removing ca_peerOrg1 ... done
+Removing network hlfv1_default
+docker rm $(docker ps -aq) > /dev/null 2>&1 || true
+docker ps -aq
+docker-compose -f docker-compose.yml up -d
+Creating network "hlfv1_default" with the default driver
+Creating ca_peerOrg1
+Creating orderer0
+Creating peer0
+Creating peer1
+
+# wait for Hyperledger Fabric to start 
+# incase of errors when running later commands, increase this value and restart
+sleep 15
+
+node create-channel.js
+info: Returning a new winston logger with default configurations
+using non-tls connection
+info: [Client.js]: Failed to load user "admin" from local key value store
+info: [FabricCAClientImpl.js]: Successfully constructed Fabric CA client from options - {"protocol":"http","hostname":"localhost","port":7054}
+info: [FabricCAClientImpl.js]: Successfully constructed Fabric CA service client: endpoint - {"protocol":"http","hostname":"localhost","port":7054}
+info: [crypto_ecdsa_aes]: This class requires a CryptoKeyStore to save keys, using the store: {"opts":{"path":"/home/ztluo/.hfc-key-store"}}
+Successfully enrolled user 'admin'
+info: [crypto_ecdsa_aes]: This class requires a CryptoKeyStore to save keys, using the store: {"opts":{"path":"/home/ztluo/.hfc-key-store"}}
+Successfully enrolled user 'admin'
+Successfully read file
+Successfully created the channel.
+Successfully waited to make sure new channel was created.
+node join-channel.js
+info: Returning a new winston logger with default configurations
+using non-tls connection
+Calling peers in organization "%s" to join the channel
+info: [Peer.js]: Peer.const - url: grpc://localhost:7051 options 
+info: [Peer.js]: Peer.const - url: grpc://localhost:7056 options 
+info: [crypto_ecdsa_aes]: This class requires a CryptoKeyStore to save keys, using the store: {"opts":{"path":"/home/ztluo/.hfc-key-store"}}
+info: [Client.js]: Successfully loaded user "admin" from local key value store
+Successfully loaded member from persistence
+Successfully enrolled user 'admin'
+info: [join-channel]: Join Channel R E S P O N S E : [{"version":0,"timestamp":null,"response":{"status":200,"message":"","payload":{"type":"Buffer","data":[]}},"payload":{"type":"Buffer","data":[]},"endorsement":null},{"version":0,"timestamp":null,"response":{"status":200,"message":"","payload":{"type":"Buffer","data":[]}},"payload":{"type":"Buffer","data":[]},"endorsement":null}]
+Successfully joined channel.
+Successfully joined peers in organization "peerOrg1" to the channel
+cd ../..
+
+> getting-started@1.0.0 deployNetwork /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started
+> composer archive create --sourceName digitalproperty-network --sourceType module --archiveFile digitalPropertyNetwork.bna && composer network deploy --archiveFile digitalPropertyNetwork.bna  -p hlfv1 -i admin -s adminpw && composer network list -n digitalproperty-network -p hlfv1 -i admin -s adminpw
+
+
+Creating Business Network Archive
+
+Node module search path : 
+undefined 
+
+Not found in main node_module search path, trying current directory :/home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/digitalproperty-network
+Looking for package.json of Business Network Definition in /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started/node_modules/digitalproperty-network
+
+Found:
+Description:Digital Property Network
+Name:digitalproperty-network
+Identifier:digitalproperty-network@0.0.9
+
+Written Business Network Definition Archive file to digitalPropertyNetwork.bna
+Command completed successfully.
+
+Command succeeded
+
+
+Deploying business network from archive: digitalPropertyNetwork.bna
+Business network definition:
+	Identifier: digitalproperty-network@0.0.9
+	Description: Digital Property Network
+
+✔ Deploying business network definition. This may take a minute...
+
+
+Command succeeded
+
+
+✔ List business network digitalproperty-network
+name:       digitalproperty-network
+models: 
+  - net.biz.digitalPropertyNetwork
+scripts: 
+  - lib/DigitalLandTitle.js
+registries: 
+  net.biz.digitalPropertyNetwork.LandTitle: 
+    id:           net.biz.digitalPropertyNetwork.LandTitle
+    name:         Asset registry for net.biz.digitalPropertyNetwork.LandTitle
+    registryType: Asset
+  net.biz.digitalPropertyNetwork.SalesAgreement: 
+    id:           net.biz.digitalPropertyNetwork.SalesAgreement
+    name:         Asset registry for net.biz.digitalPropertyNetwork.SalesAgreement
+    registryType: Asset
+
+Command succeeded
+
+getting-started@1.0.0 /home/ztluo/github.com/composer-sample-applications-hlfv1/packages/getting-started
+├─┬ chai@3.5.0 
+│ ├── assertion-error@1.0.2 
+│ ├─┬ deep-eql@0.1.3 
+│ │ └── type-detect@0.1.1 
+│ └── type-detect@1.0.0 
+├─┬ chai-as-promised@6.0.0 
+│ └── check-error@1.0.2 
+├── chai-things@0.2.0 
+├─┬ cli-table@0.3.1 
+│ └── colors@1.0.3 
+├─┬ composer-admin@0.7.5 
+│ ├─┬ composer-common@0.7.5 
+│ │ ├── acorn@4.0.13 
+│ │ ├─┬ browserfs@1.3.0 
+│ │ │ ├─┬ async@2.4.1 
+│ │ │ │ └── lodash@4.17.4  deduped
+│ │ │ └── pako@1.0.5 
+│ │ ├─┬ commander@2.10.0 
+│ │ │ └── graceful-readlink@1.0.1  deduped
+│ │ ├─┬ comment-parser@0.4.0 
+│ │ │ └─┬ readable-stream@2.3.2 
+│ │ │   ├── core-util-is@1.0.2 
+│ │ │   ├── inherits@2.0.3  deduped
+│ │ │   ├── isarray@1.0.0  deduped
+│ │ │   ├── process-nextick-args@1.0.7 
+│ │ │   ├── safe-buffer@5.1.1  deduped
+│ │ │   ├─┬ string_decoder@1.0.3 
+│ │ │   │ └── safe-buffer@5.1.1  deduped
+│ │ │   └── util-deprecate@1.0.2 
+│ │ ├── config@1.26.1  deduped
+│ │ ├─┬ debug@2.6.8 
+│ │ │ └── ms@2.0.0 
+│ │ ├─┬ doctrine@2.0.0 
+│ │ │ ├── esutils@2.0.2 
+│ │ │ └── isarray@1.0.0 
+│ │ ├── esprima@3.1.3 
+│ │ ├─┬ fs-promise@1.0.0 
+│ │ │ ├── any-promise@1.3.0 
+│ │ │ ├── fs-extra@1.0.0  deduped
+│ │ │ ├─┬ mz@2.6.0 
+│ │ │ │ ├── any-promise@1.3.0  deduped
+│ │ │ │ ├── object-assign@4.1.1 
+│ │ │ │ └── thenify-all@1.6.0  deduped
+│ │ │ └── thenify-all@1.6.0  deduped
+│ │ ├── homedir@0.6.0 
+│ │ ├─┬ jszip@3.1.3 
+│ │ │ ├── core-js@2.3.0 
+│ │ │ ├── es6-promise@3.0.2 
+│ │ │ ├─┬ lie@3.1.1 
+│ │ │ │ └── immediate@3.0.6 
+│ │ │ ├── pako@1.0.5  deduped
+│ │ │ └─┬ readable-stream@2.0.6 
+│ │ │   ├── core-util-is@1.0.2  deduped
+│ │ │   ├── inherits@2.0.3  deduped
+│ │ │   ├── isarray@1.0.0  deduped
+│ │ │   ├── process-nextick-args@1.0.7  deduped
+│ │ │   ├── string_decoder@0.10.31 
+│ │ │   └── util-deprecate@1.0.2  deduped
+│ │ ├── left-pad@1.1.3 
+│ │ ├─┬ minimatch@3.0.4 
+│ │ │ └─┬ brace-expansion@1.1.8 
+│ │ │   ├── balanced-match@1.0.0 
+│ │ │   └── concat-map@0.0.1 
+│ │ ├── mkdirp@0.5.1  deduped
+│ │ ├─┬ node-plantuml@0.5.0 
+│ │ │ ├── commander@2.10.0  deduped
+│ │ │ ├─┬ node-nailgun-client@0.1.0 
+│ │ │ │ └── commander@2.10.0  deduped
+│ │ │ ├─┬ node-nailgun-server@0.1.3 
+│ │ │ │ └── commander@2.10.0  deduped
+│ │ │ └─┬ plantuml-encoder@1.2.4 
+│ │ │   ├── pako@1.0.3 
+│ │ │   └── utf8-bytes@0.0.1 
+│ │ ├─┬ protobufjs@6.8.0 
+│ │ │ ├── @protobufjs/aspromise@1.1.2 
+│ │ │ ├── @protobufjs/base64@1.1.2 
+│ │ │ ├── @protobufjs/codegen@2.0.4 
+│ │ │ ├── @protobufjs/eventemitter@1.1.0 
+│ │ │ ├─┬ @protobufjs/fetch@1.1.0 
+│ │ │ │ ├── @protobufjs/aspromise@1.1.2  deduped
+│ │ │ │ └── @protobufjs/inquire@1.1.0  deduped
+│ │ │ ├── @protobufjs/float@1.0.2 
+│ │ │ ├── @protobufjs/inquire@1.1.0 
+│ │ │ ├── @protobufjs/path@1.1.2 
+│ │ │ ├── @protobufjs/pool@1.1.0 
+│ │ │ ├── @protobufjs/utf8@1.1.0 
+│ │ │ ├── @types/long@3.0.31 
+│ │ │ ├── @types/node@7.0.32 
+│ │ │ └── long@3.2.0 
+│ │ ├─┬ proxyquire@1.8.0 
+│ │ │ ├─┬ fill-keys@1.0.2 
+│ │ │ │ ├── is-object@1.0.1 
+│ │ │ │ └── merge-descriptors@1.0.1 
+│ │ │ ├── module-not-found-error@1.0.1 
+│ │ │ └── resolve@1.1.7 
+│ │ ├── random-words@0.0.1 
+│ │ ├─┬ rimraf@2.6.1 
+│ │ │ └─┬ glob@7.1.2 
+│ │ │   ├── fs.realpath@1.0.0  deduped
+│ │ │   ├── inflight@1.0.6  deduped
+│ │ │   ├── inherits@2.0.3  deduped
+│ │ │   ├── minimatch@3.0.4  deduped
+│ │ │   ├── once@1.4.0  deduped
+│ │ │   └── path-is-absolute@1.0.1  deduped
+│ │ ├── semver@5.3.0 
+│ │ ├── sprintf-js@1.1.1  deduped
+│ │ ├─┬ temp@0.8.3 
+│ │ │ ├── os-tmpdir@1.0.2 
+│ │ │ └── rimraf@2.2.8 
+│ │ ├─┬ thenify@3.3.0 
+│ │ │ └── any-promise@1.3.0  deduped
+│ │ ├─┬ thenify-all@1.6.0 
+│ │ │ └── thenify@3.3.0  deduped
+│ │ ├── uuid@3.1.0  deduped
+│ │ └── winston@2.3.1  deduped
+│ ├─┬ composer-connector-hlf@0.7.5 
+│ │ ├── composer-common@0.7.5  deduped
+│ │ ├── composer-runtime-hlf@0.7.5 
+│ │ ├─┬ fs-extra@1.0.0 
+│ │ │ ├── graceful-fs@4.1.11  deduped
+│ │ │ ├── jsonfile@2.4.0  deduped
+│ │ │ └─┬ klaw@1.3.1 
+│ │ │   └── graceful-fs@4.1.11  deduped
+│ │ ├─┬ hfc@0.6.5 
+│ │ │ ├── aes-js@1.0.0 
+│ │ │ ├── asn1@0.2.3  (git+https://github.com/mcavage/node-asn1.git#2c2a19e285a609adfca36a0114bb5b86cf4ac61b)
+│ │ │ ├── asn1js@1.2.12 
+│ │ │ ├── bn.js@4.11.7 
+│ │ │ ├── crypto@0.0.3 
+│ │ │ ├── debug@2.6.8  deduped
+│ │ │ ├─┬ elliptic@6.4.0 
+│ │ │ │ ├── bn.js@4.11.7  deduped
+│ │ │ │ ├── brorand@1.1.0 
+│ │ │ │ ├─┬ hash.js@1.1.1 
+│ │ │ │ │ ├── inherits@2.0.3  deduped
+│ │ │ │ │ └── minimalistic-assert@1.0.0  deduped
+│ │ │ │ ├─┬ hmac-drbg@1.0.1 
+│ │ │ │ │ ├── hash.js@1.1.1  deduped
+│ │ │ │ │ ├── minimalistic-assert@1.0.0  deduped
+│ │ │ │ │ └── minimalistic-crypto-utils@1.0.1  deduped
+│ │ │ │ ├── inherits@2.0.3  deduped
+│ │ │ │ ├── minimalistic-assert@1.0.0 
+│ │ │ │ └── minimalistic-crypto-utils@1.0.1 
+│ │ │ ├─┬ es6-set@0.1.5 
+│ │ │ │ ├─┬ d@1.0.0 
+│ │ │ │ │ └── es5-ext@0.10.23  deduped
+│ │ │ │ ├─┬ es5-ext@0.10.23 
+│ │ │ │ │ ├── es6-iterator@2.0.1  deduped
+│ │ │ │ │ └── es6-symbol@3.1.1  deduped
+│ │ │ │ ├─┬ es6-iterator@2.0.1 
+│ │ │ │ │ ├── d@1.0.0  deduped
+│ │ │ │ │ ├── es5-ext@0.10.23  deduped
+│ │ │ │ │ └── es6-symbol@3.1.1  deduped
+│ │ │ │ ├─┬ es6-symbol@3.1.1 
+│ │ │ │ │ ├── d@1.0.0  deduped
+│ │ │ │ │ └── es5-ext@0.10.23  deduped
+│ │ │ │ └─┬ event-emitter@0.3.5 
+│ │ │ │   ├── d@1.0.0  deduped
+│ │ │ │   └── es5-ext@0.10.23  deduped
+│ │ │ ├── events@1.1.1 
+│ │ │ ├── fs@0.0.2 
+│ │ │ ├─┬ grpc@1.0.0 
+│ │ │ │ ├── arguejs@0.2.3 
+│ │ │ │ ├── lodash@3.10.1 
+│ │ │ │ ├── nan@2.6.2 
+│ │ │ │ ├─┬ node-pre-gyp@0.6.29 
+│ │ │ │ │ ├─┬ mkdirp@0.5.1 
+│ │ │ │ │ │ └── minimist@0.0.8 
+│ │ │ │ │ ├─┬ nopt@3.0.6 
+│ │ │ │ │ │ └── abbrev@1.0.9 
+│ │ │ │ │ ├─┬ npmlog@3.1.2 
+│ │ │ │ │ │ ├─┬ are-we-there-yet@1.1.2 
+│ │ │ │ │ │ │ ├── delegates@1.0.0 
+│ │ │ │ │ │ │ └─┬ readable-stream@2.1.5 
+│ │ │ │ │ │ │   ├── buffer-shims@1.0.0 
+│ │ │ │ │ │ │   ├── core-util-is@1.0.2 
+│ │ │ │ │ │ │   ├── inherits@2.0.1 
+│ │ │ │ │ │ │   ├── isarray@1.0.0 
+│ │ │ │ │ │ │   ├── process-nextick-args@1.0.7 
+│ │ │ │ │ │ │   ├── string_decoder@0.10.31 
+│ │ │ │ │ │ │   └── util-deprecate@1.0.2 
+│ │ │ │ │ │ ├── console-control-strings@1.1.0 
+│ │ │ │ │ │ ├─┬ gauge@2.6.0 
+│ │ │ │ │ │ │ ├── aproba@1.0.4 
+│ │ │ │ │ │ │ ├── console-control-strings@1.1.0  deduped
+│ │ │ │ │ │ │ ├── has-color@0.1.7 
+│ │ │ │ │ │ │ ├── has-unicode@2.0.1 
+│ │ │ │ │ │ │ ├── object-assign@4.1.0 
+│ │ │ │ │ │ │ ├── signal-exit@3.0.0 
+│ │ │ │ │ │ │ ├─┬ string-width@1.0.2 
+│ │ │ │ │ │ │ │ ├─┬ code-point-at@1.0.0 
+│ │ │ │ │ │ │ │ │ └── number-is-nan@1.0.0 
+│ │ │ │ │ │ │ │ ├─┬ is-fullwidth-code-point@1.0.0 
+│ │ │ │ │ │ │ │ │ └── number-is-nan@1.0.0 
+│ │ │ │ │ │ │ │ └── strip-ansi@3.0.1  deduped
+│ │ │ │ │ │ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ │ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ │ │ │ └─┬ wide-align@1.1.0 
+│ │ │ │ │ │ │   └── string-width@1.0.2  deduped
+│ │ │ │ │ │ └── set-blocking@2.0.0 
+│ │ │ │ │ ├─┬ rc@1.1.6 
+│ │ │ │ │ │ ├── deep-extend@0.4.1 
+│ │ │ │ │ │ ├── ini@1.3.4 
+│ │ │ │ │ │ ├── minimist@1.2.0 
+│ │ │ │ │ │ └── strip-json-comments@1.0.4 
+│ │ │ │ │ ├─┬ request@2.74.0 
+│ │ │ │ │ │ ├── aws-sign2@0.6.0 
+│ │ │ │ │ │ ├── aws4@1.4.1 
+│ │ │ │ │ │ ├─┬ bl@1.1.2 
+│ │ │ │ │ │ │ └─┬ readable-stream@2.0.6 
+│ │ │ │ │ │ │   ├── core-util-is@1.0.2 
+│ │ │ │ │ │ │   ├── inherits@2.0.1 
+│ │ │ │ │ │ │   ├── isarray@1.0.0 
+│ │ │ │ │ │ │   ├── process-nextick-args@1.0.7 
+│ │ │ │ │ │ │   ├── string_decoder@0.10.31 
+│ │ │ │ │ │ │   └── util-deprecate@1.0.2 
+│ │ │ │ │ │ ├── caseless@0.11.0 
+│ │ │ │ │ │ ├─┬ combined-stream@1.0.5 
+│ │ │ │ │ │ │ └── delayed-stream@1.0.0 
+│ │ │ │ │ │ ├── extend@3.0.0 
+│ │ │ │ │ │ ├── forever-agent@0.6.1 
+│ │ │ │ │ │ ├─┬ form-data@1.0.0-rc4 
+│ │ │ │ │ │ │ ├── async@1.5.2 
+│ │ │ │ │ │ │ ├── combined-stream@1.0.5  deduped
+│ │ │ │ │ │ │ └── mime-types@2.1.11  deduped
+│ │ │ │ │ │ ├─┬ har-validator@2.0.6 
+│ │ │ │ │ │ │ ├─┬ chalk@1.1.3 
+│ │ │ │ │ │ │ │ ├── ansi-styles@2.2.1 
+│ │ │ │ │ │ │ │ ├── escape-string-regexp@1.0.5 
+│ │ │ │ │ │ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ │ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ │ │ │ │ ├─┬ strip-ansi@3.0.1 
+│ │ │ │ │ │ │ │ │ └── ansi-regex@2.0.0 
+│ │ │ │ │ │ │ │ └── supports-color@2.0.0 
+│ │ │ │ │ │ │ ├─┬ commander@2.9.0 
+│ │ │ │ │ │ │ │ └── graceful-readlink@1.0.1 
+│ │ │ │ │ │ │ ├─┬ is-my-json-valid@2.13.1 
+│ │ │ │ │ │ │ │ ├── generate-function@2.0.0 
+│ │ │ │ │ │ │ │ ├─┬ generate-object-property@1.2.0 
+│ │ │ │ │ │ │ │ │ └── is-property@1.0.2 
+│ │ │ │ │ │ │ │ ├── jsonpointer@2.0.0 
+│ │ │ │ │ │ │ │ └── xtend@4.0.1 
+│ │ │ │ │ │ │ └─┬ pinkie-promise@2.0.1 
+│ │ │ │ │ │ │   └── pinkie@2.0.4 
+│ │ │ │ │ │ ├─┬ hawk@3.1.3 
+│ │ │ │ │ │ │ ├─┬ boom@2.10.1 
+│ │ │ │ │ │ │ │ └── hoek@2.16.3  deduped
+│ │ │ │ │ │ │ ├─┬ cryptiles@2.0.5 
+│ │ │ │ │ │ │ │ └── boom@2.10.1  deduped
+│ │ │ │ │ │ │ ├── hoek@2.16.3 
+│ │ │ │ │ │ │ └─┬ sntp@1.0.9 
+│ │ │ │ │ │ │   └── hoek@2.16.3  deduped
+│ │ │ │ │ │ ├─┬ http-signature@1.1.1 
+│ │ │ │ │ │ │ ├── assert-plus@0.2.0 
+│ │ │ │ │ │ │ ├─┬ jsprim@1.3.0 
+│ │ │ │ │ │ │ │ ├── extsprintf@1.0.2 
+│ │ │ │ │ │ │ │ ├── json-schema@0.2.2 
+│ │ │ │ │ │ │ │ └─┬ verror@1.3.6 
+│ │ │ │ │ │ │ │   └── extsprintf@1.0.2  deduped
+│ │ │ │ │ │ │ └─┬ sshpk@1.9.2 
+│ │ │ │ │ │ │   ├── asn1@0.2.3 
+│ │ │ │ │ │ │   ├── assert-plus@1.0.0 
+│ │ │ │ │ │ │   ├─┬ dashdash@1.14.0 
+│ │ │ │ │ │ │   │ └── assert-plus@1.0.0  deduped
+│ │ │ │ │ │ │   ├─┬ ecc-jsbn@0.1.1 
+│ │ │ │ │ │ │   │ └── jsbn@0.1.0  deduped
+│ │ │ │ │ │ │   ├─┬ getpass@0.1.6 
+│ │ │ │ │ │ │   │ └── assert-plus@1.0.0  deduped
+│ │ │ │ │ │ │   ├─┬ jodid25519@1.0.2 
+│ │ │ │ │ │ │   │ └── jsbn@0.1.0  deduped
+│ │ │ │ │ │ │   ├── jsbn@0.1.0 
+│ │ │ │ │ │ │   └── tweetnacl@0.13.3 
+│ │ │ │ │ │ ├── is-typedarray@1.0.0 
+│ │ │ │ │ │ ├── isstream@0.1.2 
+│ │ │ │ │ │ ├── json-stringify-safe@5.0.1 
+│ │ │ │ │ │ ├─┬ mime-types@2.1.11 
+│ │ │ │ │ │ │ └── mime-db@1.23.0 
+│ │ │ │ │ │ ├── node-uuid@1.4.7 
+│ │ │ │ │ │ ├── oauth-sign@0.8.2 
+│ │ │ │ │ │ ├── qs@6.2.1 
+│ │ │ │ │ │ ├── stringstream@0.0.5 
+│ │ │ │ │ │ ├── tough-cookie@2.3.1 
+│ │ │ │ │ │ └── tunnel-agent@0.4.3 
+│ │ │ │ │ ├─┬ rimraf@2.5.4 
+│ │ │ │ │ │ └─┬ glob@7.0.5 
+│ │ │ │ │ │   ├── fs.realpath@1.0.0 
+│ │ │ │ │ │   ├─┬ inflight@1.0.5 
+│ │ │ │ │ │   │ ├── once@1.3.3  deduped
+│ │ │ │ │ │   │ └── wrappy@1.0.2 
+│ │ │ │ │ │   ├── inherits@2.0.1 
+│ │ │ │ │ │   ├─┬ minimatch@3.0.3 
+│ │ │ │ │ │   │ └─┬ brace-expansion@1.1.6 
+│ │ │ │ │ │   │   ├── balanced-match@0.4.2 
+│ │ │ │ │ │   │   └── concat-map@0.0.1 
+│ │ │ │ │ │   ├─┬ once@1.3.3 
+│ │ │ │ │ │   │ └── wrappy@1.0.2 
+│ │ │ │ │ │   └── path-is-absolute@1.0.0 
+│ │ │ │ │ ├── semver@5.2.0 
+│ │ │ │ │ ├─┬ tar@2.2.1 
+│ │ │ │ │ │ ├─┬ block-stream@0.0.9 
+│ │ │ │ │ │ │ └── inherits@2.0.1  deduped
+│ │ │ │ │ │ ├─┬ fstream@1.0.10 
+│ │ │ │ │ │ │ ├── graceful-fs@4.1.5 
+│ │ │ │ │ │ │ ├── inherits@2.0.1  deduped
+│ │ │ │ │ │ │ ├── mkdirp@0.5.1  deduped
+│ │ │ │ │ │ │ └── rimraf@2.5.4  deduped
+│ │ │ │ │ │ └── inherits@2.0.1 
+│ │ │ │ │ └─┬ tar-pack@3.1.4 
+│ │ │ │ │   ├─┬ debug@2.2.0 
+│ │ │ │ │   │ └── ms@0.7.1 
+│ │ │ │ │   ├─┬ fstream@1.0.10 
+│ │ │ │ │   │ ├── graceful-fs@4.1.5 
+│ │ │ │ │   │ ├── inherits@2.0.1 
+│ │ │ │ │   │ ├── mkdirp@0.5.1  deduped
+│ │ │ │ │   │ └── rimraf@2.5.4  deduped
+│ │ │ │ │   ├─┬ fstream-ignore@1.0.5 
+│ │ │ │ │   │ ├── fstream@1.0.10  deduped
+│ │ │ │ │   │ ├── inherits@2.0.1 
+│ │ │ │ │   │ └─┬ minimatch@3.0.3 
+│ │ │ │ │   │   └─┬ brace-expansion@1.1.6 
+│ │ │ │ │   │     ├── balanced-match@0.4.2 
+│ │ │ │ │   │     └── concat-map@0.0.1 
+│ │ │ │ │   ├─┬ once@1.3.3 
+│ │ │ │ │   │ └── wrappy@1.0.2 
+│ │ │ │ │   ├─┬ readable-stream@2.1.5 
+│ │ │ │ │   │ ├── buffer-shims@1.0.0 
+│ │ │ │ │   │ ├── core-util-is@1.0.2 
+│ │ │ │ │   │ ├── inherits@2.0.1 
+│ │ │ │ │   │ ├── isarray@1.0.0 
+│ │ │ │ │   │ ├── process-nextick-args@1.0.7 
+│ │ │ │ │   │ ├── string_decoder@0.10.31 
+│ │ │ │ │   │ └── util-deprecate@1.0.2 
+│ │ │ │ │   ├── rimraf@2.5.4  deduped
+│ │ │ │ │   ├── tar@2.2.1  deduped
+│ │ │ │ │   └── uid-number@0.0.6 
+│ │ │ │ └─┬ protobufjs@4.1.3 
+│ │ │ │   ├─┬ ascli@1.0.1 
+│ │ │ │   │ ├── colour@0.7.1 
+│ │ │ │   │ └── optjs@3.2.2 
+│ │ │ │   ├─┬ bytebuffer@4.1.0 
+│ │ │ │   │ ├── bufferview@1.0.1 
+│ │ │ │   │ └── long@2.4.0 
+│ │ │ │   ├─┬ glob@5.0.15 
+│ │ │ │   │ ├── inflight@1.0.6  deduped
+│ │ │ │   │ ├── inherits@2.0.3  deduped
+│ │ │ │   │ ├── minimatch@3.0.4  deduped
+│ │ │ │   │ ├── once@1.4.0  deduped
+│ │ │ │   │ └── path-is-absolute@1.0.1  deduped
+│ │ │ │   └─┬ yargs@3.32.0 
+│ │ │ │     ├── camelcase@2.1.1  deduped
+│ │ │ │     ├── cliui@3.2.0  deduped
+│ │ │ │     ├── decamelize@1.2.0  deduped
+│ │ │ │     ├── os-locale@1.4.0  deduped
+│ │ │ │     ├── string-width@1.0.2  deduped
+│ │ │ │     ├── window-size@0.1.4  deduped
+│ │ │ │     └── y18n@3.2.1  deduped
+│ │ │ ├─┬ hashtable@2.0.2 
+│ │ │ │ └── nan@2.6.2 
+│ │ │ ├── js-sha3@0.5.7 
+│ │ │ ├── json-stringify-safe@5.0.1 
+│ │ │ ├── jsrsasign@5.1.0 
+│ │ │ ├── jssha@2.3.1 
+│ │ │ ├── node-uuid@1.4.8 
+│ │ │ ├─┬ node.extend@1.1.6 
+│ │ │ │ └── is@3.2.1 
+│ │ │ ├── pkijs@1.3.33 
+│ │ │ ├── sjcl@1.0.3 
+│ │ │ ├── sjcl-codec@0.1.1 
+│ │ │ ├─┬ sleep@3.0.1 
+│ │ │ │ └── nan@2.6.2  deduped
+│ │ │ ├─┬ tar-fs@1.15.3 
+│ │ │ │ ├── chownr@1.0.1 
+│ │ │ │ ├── mkdirp@0.5.1  deduped
+│ │ │ │ ├─┬ pump@1.0.2 
+│ │ │ │ │ ├── end-of-stream@1.4.0  deduped
+│ │ │ │ │ └── once@1.4.0  deduped
+│ │ │ │ └─┬ tar-stream@1.5.4 
+│ │ │ │   ├── bl@1.2.1  deduped
+│ │ │ │   ├── end-of-stream@1.4.0  deduped
+│ │ │ │   ├── readable-stream@2.3.2  deduped
+│ │ │ │   └── xtend@4.0.1  deduped
+│ │ │ ├─┬ typedoc@0.4.5 
+│ │ │ │ ├─┬ fs-extra@0.30.0 
+│ │ │ │ │ ├── graceful-fs@4.1.11  deduped
+│ │ │ │ │ ├── jsonfile@2.4.0  deduped
+│ │ │ │ │ ├── klaw@1.3.1  deduped
+│ │ │ │ │ ├── path-is-absolute@1.0.1  deduped
+│ │ │ │ │ └── rimraf@2.6.1  deduped
+│ │ │ │ ├─┬ handlebars@4.0.5 
+│ │ │ │ │ ├── async@1.5.2 
+│ │ │ │ │ ├─┬ optimist@0.6.1 
+│ │ │ │ │ │ ├── minimist@0.0.8  deduped
+│ │ │ │ │ │ └── wordwrap@0.0.3 
+│ │ │ │ │ ├─┬ source-map@0.4.4 
+│ │ │ │ │ │ └── amdefine@1.0.1 
+│ │ │ │ │ └─┬ uglify-js@2.8.29 
+│ │ │ │ │   ├── source-map@0.5.6 
+│ │ │ │ │   ├── uglify-to-browserify@1.0.2 
+│ │ │ │ │   └─┬ yargs@3.10.0 
+│ │ │ │ │     ├── camelcase@1.2.1 
+│ │ │ │ │     ├─┬ cliui@2.1.0 
+│ │ │ │ │     │ ├─┬ center-align@0.1.3 
+│ │ │ │ │     │ │ ├─┬ align-text@0.1.4 
+│ │ │ │ │     │ │ │ ├─┬ kind-of@3.2.2 
+│ │ │ │ │     │ │ │ │ └── is-buffer@1.1.5 
+│ │ │ │ │     │ │ │ ├── longest@1.0.1 
+│ │ │ │ │     │ │ │ └── repeat-string@1.6.1 
+│ │ │ │ │     │ │ └── lazy-cache@1.0.4 
+│ │ │ │ │     │ ├─┬ right-align@0.1.3 
+│ │ │ │ │     │ │ └── align-text@0.1.4  deduped
+│ │ │ │ │     │ └── wordwrap@0.0.2 
+│ │ │ │ │     ├── decamelize@1.2.0  deduped
+│ │ │ │ │     └── window-size@0.1.0 
+│ │ │ │ ├── highlight.js@9.12.0 
+│ │ │ │ ├── lodash@4.17.4  deduped
+│ │ │ │ ├── marked@0.3.6 
+│ │ │ │ ├── minimatch@3.0.4  deduped
+│ │ │ │ ├── progress@1.1.8 
+│ │ │ │ ├─┬ shelljs@0.7.8 
+│ │ │ │ │ ├── glob@7.1.2  deduped
+│ │ │ │ │ ├── interpret@1.0.3 
+│ │ │ │ │ └─┬ rechoir@0.6.2 
+│ │ │ │ │   └── resolve@1.1.7  deduped
+│ │ │ │ ├── typedoc-default-themes@0.4.4 
+│ │ │ │ └── typescript@1.8.10  deduped
+│ │ │ ├── typescript@1.8.10 
+│ │ │ ├─┬ url@0.11.0 
+│ │ │ │ ├── punycode@1.3.2 
+│ │ │ │ └── querystring@0.2.0 
+│ │ │ ├── util@0.10.3  deduped
+│ │ │ └── uuidv4@0.3.1 
+│ │ ├── semver@5.3.0  deduped
+│ │ ├── temp@0.8.3  deduped
+│ │ └── uuid@3.1.0  deduped
+│ └─┬ composer-connector-hlfv1@0.7.5 
+│   ├── composer-common@0.7.5  deduped
+│   ├── composer-runtime-hlfv1@0.7.5 
+│   ├─┬ fabric-ca-client@1.0.0-alpha.1 
+│   │ ├── asn1@0.2.3  deduped (git+https://github.com/mcavage/node-asn1.git#2c2a19e285a609adfca36a0114bb5b86cf4ac61b)
+│   │ ├── bn.js@4.11.7  deduped
+│   │ ├── elliptic@6.4.0  deduped
+│   │ ├─┬ fs-extra@0.30.0 
+│   │ │ ├── graceful-fs@4.1.11  deduped
+│   │ │ ├── jsonfile@2.4.0  deduped
+│   │ │ ├── klaw@1.3.1  deduped
+│   │ │ ├── path-is-absolute@1.0.1  deduped
+│   │ │ └── rimraf@2.6.1  deduped
+│   │ ├── js-sha3@0.5.7  deduped
+│   │ ├── jsrsasign@6.2.3 
+│   │ ├── jssha@2.3.1  deduped
+│   │ ├─┬ nconf@0.8.4 
+│   │ │ ├── async@1.5.2 
+│   │ │ ├── ini@1.3.4 
+│   │ │ ├── secure-keys@1.0.0 
+│   │ │ └─┬ yargs@3.32.0 
+│   │ │   ├── camelcase@2.1.1 
+│   │ │   ├── cliui@3.2.0  deduped
+│   │ │   ├── decamelize@1.2.0  deduped
+│   │ │   ├── os-locale@1.4.0  deduped
+│   │ │   ├── string-width@1.0.2  deduped
+│   │ │   ├── window-size@0.1.4 
+│   │ │   └── y18n@3.2.1  deduped
+│   │ ├── sjcl@1.0.3  deduped
+│   │ ├── sjcl-codec@0.1.1  deduped
+│   │ ├── url@0.11.0  deduped
+│   │ ├── util@0.10.3  deduped
+│   │ └── winston@2.3.1  deduped
+│   ├─┬ fabric-client@1.0.0-alpha.1 
+│   │ ├── aes-js@1.0.0  deduped
+│   │ ├── asn1@0.2.3  deduped (git+https://github.com/mcavage/node-asn1.git#2c2a19e285a609adfca36a0114bb5b86cf4ac61b)
+│   │ ├── asn1js@1.2.12  deduped
+│   │ ├── bn.js@4.11.7  deduped
+│   │ ├── callsite@1.0.0 
+│   │ ├── crypto@0.0.3  deduped
+│   │ ├── elliptic@6.4.0  deduped
+│   │ ├── events@1.1.1  deduped
+│   │ ├── fs@0.0.2  deduped
+│   │ ├─┬ fs-extra@0.30.0 
+│   │ │ ├── graceful-fs@4.1.11  deduped
+│   │ │ ├── jsonfile@2.4.0  deduped
+│   │ │ ├── klaw@1.3.1  deduped
+│   │ │ ├── path-is-absolute@1.0.1  deduped
+│   │ │ └── rimraf@2.6.1  deduped
+│   │ ├─┬ grpc@1.2.4 
+│   │ │ ├── arguejs@0.2.3  deduped
+│   │ │ ├── lodash@4.17.4  deduped
+│   │ │ ├── nan@2.6.2  deduped
+│   │ │ ├─┬ node-pre-gyp@0.6.34 
+│   │ │ │ ├─┬ mkdirp@0.5.1 
+│   │ │ │ │ └── minimist@0.0.8 
+│   │ │ │ ├─┬ nopt@4.0.1 
+│   │ │ │ │ ├── abbrev@1.1.0 
+│   │ │ │ │ └─┬ osenv@0.1.4 
+│   │ │ │ │   ├── os-homedir@1.0.2 
+│   │ │ │ │   └── os-tmpdir@1.0.2 
+│   │ │ │ ├─┬ npmlog@4.0.2 
+│   │ │ │ │ ├─┬ are-we-there-yet@1.1.2 
+│   │ │ │ │ │ ├── delegates@1.0.0 
+│   │ │ │ │ │ └─┬ readable-stream@2.2.9 
+│   │ │ │ │ │   ├── buffer-shims@1.0.0 
+│   │ │ │ │ │   ├── core-util-is@1.0.2 
+│   │ │ │ │ │   ├── inherits@2.0.3 
+│   │ │ │ │ │   ├── isarray@1.0.0 
+│   │ │ │ │ │   ├── process-nextick-args@1.0.7 
+│   │ │ │ │ │   ├─┬ string_decoder@1.0.0 
+│   │ │ │ │ │   │ └── buffer-shims@1.0.0  deduped
+│   │ │ │ │ │   └── util-deprecate@1.0.2 
+│   │ │ │ │ ├── console-control-strings@1.1.0 
+│   │ │ │ │ ├─┬ gauge@2.7.3 
+│   │ │ │ │ │ ├── aproba@1.1.1 
+│   │ │ │ │ │ ├── console-control-strings@1.1.0  deduped
+│   │ │ │ │ │ ├── has-unicode@2.0.1 
+│   │ │ │ │ │ ├── object-assign@4.1.1 
+│   │ │ │ │ │ ├── signal-exit@3.0.2 
+│   │ │ │ │ │ ├─┬ string-width@1.0.2 
+│   │ │ │ │ │ │ ├── code-point-at@1.1.0 
+│   │ │ │ │ │ │ ├─┬ is-fullwidth-code-point@1.0.0 
+│   │ │ │ │ │ │ │ └── number-is-nan@1.0.1 
+│   │ │ │ │ │ │ └── strip-ansi@3.0.1  deduped
+│   │ │ │ │ │ ├─┬ strip-ansi@3.0.1 
+│   │ │ │ │ │ │ └── ansi-regex@2.1.1 
+│   │ │ │ │ │ └─┬ wide-align@1.1.0 
+│   │ │ │ │ │   └── string-width@1.0.2  deduped
+│   │ │ │ │ └── set-blocking@2.0.0 
+│   │ │ │ ├─┬ rc@1.2.1 
+│   │ │ │ │ ├── deep-extend@0.4.1 
+│   │ │ │ │ ├── ini@1.3.4 
+│   │ │ │ │ ├── minimist@1.2.0 
+│   │ │ │ │ └── strip-json-comments@2.0.1 
+│   │ │ │ ├─┬ request@2.81.0 
+│   │ │ │ │ ├── aws-sign2@0.6.0 
+│   │ │ │ │ ├── aws4@1.6.0 
+│   │ │ │ │ ├── caseless@0.12.0 
+│   │ │ │ │ ├─┬ combined-stream@1.0.5 
+│   │ │ │ │ │ └── delayed-stream@1.0.0 
+│   │ │ │ │ ├── extend@3.0.0 
+│   │ │ │ │ ├── forever-agent@0.6.1 
+│   │ │ │ │ ├─┬ form-data@2.1.4 
+│   │ │ │ │ │ ├── asynckit@0.4.0 
+│   │ │ │ │ │ ├── combined-stream@1.0.5  deduped
+│   │ │ │ │ │ └── mime-types@2.1.15  deduped
+│   │ │ │ │ ├─┬ har-validator@4.2.1 
+│   │ │ │ │ │ ├─┬ ajv@4.11.6 
+│   │ │ │ │ │ │ ├── co@4.6.0 
+│   │ │ │ │ │ │ └─┬ json-stable-stringify@1.0.1 
+│   │ │ │ │ │ │   └── jsonify@0.0.0 
+│   │ │ │ │ │ └── har-schema@1.0.5 
+│   │ │ │ │ ├─┬ hawk@3.1.3 
+│   │ │ │ │ │ ├─┬ boom@2.10.1 
+│   │ │ │ │ │ │ └── hoek@2.16.3  deduped
+│   │ │ │ │ │ ├─┬ cryptiles@2.0.5 
+│   │ │ │ │ │ │ └── boom@2.10.1  deduped
+│   │ │ │ │ │ ├── hoek@2.16.3 
+│   │ │ │ │ │ └─┬ sntp@1.0.9 
+│   │ │ │ │ │   └── hoek@2.16.3  deduped
+│   │ │ │ │ ├─┬ http-signature@1.1.1 
+│   │ │ │ │ │ ├── assert-plus@0.2.0 
+│   │ │ │ │ │ ├─┬ jsprim@1.4.0 
+│   │ │ │ │ │ │ ├── assert-plus@1.0.0 
+│   │ │ │ │ │ │ ├── extsprintf@1.0.2 
+│   │ │ │ │ │ │ ├── json-schema@0.2.3 
+│   │ │ │ │ │ │ └─┬ verror@1.3.6 
+│   │ │ │ │ │ │   └── extsprintf@1.0.2  deduped
+│   │ │ │ │ │ └─┬ sshpk@1.11.0 
+│   │ │ │ │ │   ├── asn1@0.2.3 
+│   │ │ │ │ │   ├── assert-plus@1.0.0 
+│   │ │ │ │ │   ├─┬ bcrypt-pbkdf@1.0.1 
+│   │ │ │ │ │   │ └── tweetnacl@0.14.5  deduped
+│   │ │ │ │ │   ├─┬ dashdash@1.14.1 
+│   │ │ │ │ │   │ └── assert-plus@1.0.0  deduped
+│   │ │ │ │ │   ├─┬ ecc-jsbn@0.1.1 
+│   │ │ │ │ │   │ └── jsbn@0.1.1  deduped
+│   │ │ │ │ │   ├─┬ getpass@0.1.6 
+│   │ │ │ │ │   │ └── assert-plus@1.0.0  deduped
+│   │ │ │ │ │   ├─┬ jodid25519@1.0.2 
+│   │ │ │ │ │   │ └── jsbn@0.1.1  deduped
+│   │ │ │ │ │   ├── jsbn@0.1.1 
+│   │ │ │ │ │   └── tweetnacl@0.14.5 
+│   │ │ │ │ ├── is-typedarray@1.0.0 
+│   │ │ │ │ ├── isstream@0.1.2 
+│   │ │ │ │ ├── json-stringify-safe@5.0.1 
+│   │ │ │ │ ├─┬ mime-types@2.1.15 
+│   │ │ │ │ │ └── mime-db@1.27.0 
+│   │ │ │ │ ├── oauth-sign@0.8.2 
+│   │ │ │ │ ├── performance-now@0.2.0 
+│   │ │ │ │ ├── qs@6.4.0 
+│   │ │ │ │ ├── safe-buffer@5.0.1 
+│   │ │ │ │ ├── stringstream@0.0.5 
+│   │ │ │ │ ├─┬ tough-cookie@2.3.2 
+│   │ │ │ │ │ └── punycode@1.4.1 
+│   │ │ │ │ ├─┬ tunnel-agent@0.6.0 
+│   │ │ │ │ │ └── safe-buffer@5.0.1  deduped
+│   │ │ │ │ └── uuid@3.0.1 
+│   │ │ │ ├─┬ rimraf@2.6.1 
+│   │ │ │ │ └─┬ glob@7.1.1 
+│   │ │ │ │   ├── fs.realpath@1.0.0 
+│   │ │ │ │   ├─┬ inflight@1.0.6 
+│   │ │ │ │   │ ├── once@1.4.0  deduped
+│   │ │ │ │   │ └── wrappy@1.0.2 
+│   │ │ │ │   ├── inherits@2.0.3 
+│   │ │ │ │   ├─┬ minimatch@3.0.3 
+│   │ │ │ │   │ └─┬ brace-expansion@1.1.7 
+│   │ │ │ │   │   ├── balanced-match@0.4.2 
+│   │ │ │ │   │   └── concat-map@0.0.1 
+│   │ │ │ │   ├─┬ once@1.4.0 
+│   │ │ │ │   │ └── wrappy@1.0.2 
+│   │ │ │ │   └── path-is-absolute@1.0.1 
+│   │ │ │ ├── semver@5.3.0 
+│   │ │ │ ├─┬ tar@2.2.1 
+│   │ │ │ │ ├─┬ block-stream@0.0.9 
+│   │ │ │ │ │ └── inherits@2.0.3  deduped
+│   │ │ │ │ ├─┬ fstream@1.0.11 
+│   │ │ │ │ │ ├── graceful-fs@4.1.11 
+│   │ │ │ │ │ ├── inherits@2.0.3  deduped
+│   │ │ │ │ │ ├── mkdirp@0.5.1  deduped
+│   │ │ │ │ │ └── rimraf@2.6.1  deduped
+│   │ │ │ │ └── inherits@2.0.3 
+│   │ │ │ └─┬ tar-pack@3.4.0 
+│   │ │ │   ├─┬ debug@2.6.3 
+│   │ │ │   │ └── ms@0.7.2 
+│   │ │ │   ├─┬ fstream@1.0.11 
+│   │ │ │   │ ├── graceful-fs@4.1.11 
+│   │ │ │   │ ├── inherits@2.0.3 
+│   │ │ │   │ ├── mkdirp@0.5.1  deduped
+│   │ │ │   │ └── rimraf@2.6.1  deduped
+│   │ │ │   ├─┬ fstream-ignore@1.0.5 
+│   │ │ │   │ ├── fstream@1.0.11  deduped
+│   │ │ │   │ ├── inherits@2.0.3 
+│   │ │ │   │ └─┬ minimatch@3.0.3 
+│   │ │ │   │   └─┬ brace-expansion@1.1.7 
+│   │ │ │   │     ├── balanced-match@0.4.2 
+│   │ │ │   │     └── concat-map@0.0.1 
+│   │ │ │   ├─┬ once@1.4.0 
+│   │ │ │   │ └── wrappy@1.0.2 
+│   │ │ │   ├─┬ readable-stream@2.2.9 
+│   │ │ │   │ ├── buffer-shims@1.0.0 
+│   │ │ │   │ ├── core-util-is@1.0.2 
+│   │ │ │   │ ├── inherits@2.0.3 
+│   │ │ │   │ ├── isarray@1.0.0 
+│   │ │ │   │ ├── process-nextick-args@1.0.7 
+│   │ │ │   │ ├─┬ string_decoder@1.0.0 
+│   │ │ │   │ │ └── buffer-shims@1.0.0  deduped
+│   │ │ │   │ └── util-deprecate@1.0.2 
+│   │ │ │   ├── rimraf@2.6.1  deduped
+│   │ │ │   ├── tar@2.2.1  deduped
+│   │ │ │   └── uid-number@0.0.6 
+│   │ │ └─┬ protobufjs@5.0.2 
+│   │ │   ├── ascli@1.0.1  deduped
+│   │ │   ├─┬ bytebuffer@5.0.1 
+│   │ │   │ └── long@3.2.0  deduped
+│   │ │   ├── glob@7.1.2  deduped
+│   │ │   └─┬ yargs@3.32.0 
+│   │ │     ├── camelcase@2.1.1  deduped
+│   │ │     ├── cliui@3.2.0  deduped
+│   │ │     ├── decamelize@1.2.0  deduped
+│   │ │     ├── os-locale@1.4.0  deduped
+│   │ │     ├── string-width@1.0.2  deduped
+│   │ │     ├── window-size@0.1.4  deduped
+│   │ │     └── y18n@3.2.1  deduped
+│   │ ├── hashtable@2.0.2  deduped
+│   │ ├── js-sha3@0.5.7  deduped
+│   │ ├── json-stringify-safe@5.0.1  deduped
+│   │ ├── jsrsasign@6.2.2 
+│   │ ├── jssha@2.3.1  deduped
+│   │ ├── klaw@1.3.1  deduped
+│   │ ├── lodash@4.17.4  deduped
+│   │ ├── nconf@0.8.4  deduped
+│   │ ├─┬ node-dir@0.1.17 
+│   │ │ └── minimatch@3.0.4  deduped
+│   │ ├── node.extend@1.1.6  deduped
+│   │ ├─┬ path@0.12.7 
+│   │ │ ├── process@0.11.10 
+│   │ │ └── util@0.10.3  deduped
+│   │ ├─┬ pkcs11js@1.0.9 
+│   │ │ ├── @types/node@6.0.78 
+│   │ │ └── nan@2.6.2  deduped
+│   │ ├── pkijs@1.3.33  deduped
+│   │ ├── promise-settle@0.3.0 
+│   │ ├── sjcl@1.0.3  deduped
+│   │ ├── sjcl-codec@0.1.1  deduped
+│   │ ├── sleep@3.0.1  deduped
+│   │ ├── stream-buffers@3.0.1 
+│   │ ├─┬ tar-stream@1.5.2 
+│   │ │ ├─┬ bl@1.2.1 
+│   │ │ │ └── readable-stream@2.3.2  deduped
+│   │ │ ├─┬ end-of-stream@1.4.0 
+│   │ │ │ └── once@1.4.0  deduped
+│   │ │ ├── readable-stream@2.3.2  deduped
+│   │ │ └── xtend@4.0.1 
+│   │ ├── url@0.11.0  deduped
+│   │ ├── util@0.10.3  deduped
+│   │ └── winston@2.3.1  deduped
+│   ├── fs-extra@1.0.0  deduped
+│   ├── semver@5.3.0  deduped
+│   ├── temp@0.8.3  deduped
+│   ├── thenify-all@1.6.0  deduped
+│   └── uuid@3.1.0  deduped
+├─┬ composer-client@0.7.5 
+│ ├── composer-common@0.7.5  deduped
+│ ├── composer-connector-hlf@0.7.5  deduped
+│ ├── composer-connector-hlfv1@0.7.5  deduped
+│ └── uuid@3.1.0 
+├─┬ composer-connector-embedded@0.7.5 
+│ ├── composer-common@0.7.5  deduped
+│ ├─┬ composer-runtime@0.7.5 
+│ │ ├── composer-common@0.7.5  deduped
+│ │ ├── debug@2.6.8  deduped
+│ │ ├── fast-json-patch@1.2.2 
+│ │ ├── jsonata@1.2.4 
+│ │ ├─┬ lru-cache@4.1.1 
+│ │ │ ├── pseudomap@1.0.2 
+│ │ │ └── yallist@2.1.2 
+│ │ ├─┬ sha.js@2.4.8 
+│ │ │ └── inherits@2.0.3  deduped
+│ │ └── source-map@0.5.6 
+│ └─┬ composer-runtime-embedded@0.7.5 
+│   ├── composer-common@0.7.5  deduped
+│   ├── composer-runtime@0.7.5  deduped
+│   ├── debug@2.6.8  deduped
+│   ├── dexie@1.5.1 
+│   ├─┬ fake-indexeddb@1.0.12 
+│   │ ├── array.prototype.find@1.0.0 
+│   │ ├── array.prototype.findindex@1.0.0 
+│   │ ├─┬ realistic-structured-clone@1.0.1 
+│   │ │ └─┬ lodash.isplainobject@3.2.0 
+│   │ │   ├── lodash._basefor@3.0.3 
+│   │ │   ├── lodash.isarguments@3.1.0  deduped
+│   │ │   └─┬ lodash.keysin@3.0.8 
+│   │ │     ├── lodash.isarguments@3.1.0  deduped
+│   │ │     └── lodash.isarray@3.0.4  deduped
+│   │ └── setimmediate@1.0.5 
+│   ├─┬ istanbul-lib-instrument@1.7.2 
+│   │ ├─┬ babel-generator@6.25.0 
+│   │ │ ├─┬ babel-messages@6.23.0 
+│   │ │ │ └── babel-runtime@6.23.0  deduped
+│   │ │ ├─┬ babel-runtime@6.23.0 
+│   │ │ │ ├── core-js@2.4.1 
+│   │ │ │ └── regenerator-runtime@0.10.5 
+│   │ │ ├── babel-types@6.25.0  deduped
+│   │ │ ├─┬ detect-indent@4.0.0 
+│   │ │ │ └─┬ repeating@2.0.1 
+│   │ │ │   └─┬ is-finite@1.0.2 
+│   │ │ │     └── number-is-nan@1.0.1  deduped
+│   │ │ ├── jsesc@1.3.0 
+│   │ │ ├── lodash@4.17.4  deduped
+│   │ │ ├── source-map@0.5.6 
+│   │ │ └── trim-right@1.0.1 
+│   │ ├─┬ babel-template@6.25.0 
+│   │ │ ├── babel-runtime@6.23.0  deduped
+│   │ │ ├── babel-traverse@6.25.0  deduped
+│   │ │ ├── babel-types@6.25.0  deduped
+│   │ │ ├── babylon@6.17.4  deduped
+│   │ │ └── lodash@4.17.4  deduped
+│   │ ├─┬ babel-traverse@6.25.0 
+│   │ │ ├─┬ babel-code-frame@6.22.0 
+│   │ │ │ ├─┬ chalk@1.1.3 
+│   │ │ │ │ ├── ansi-styles@2.2.1 
+│   │ │ │ │ ├── escape-string-regexp@1.0.5  deduped
+│   │ │ │ │ ├─┬ has-ansi@2.0.0 
+│   │ │ │ │ │ └── ansi-regex@2.1.1  deduped
+│   │ │ │ │ ├── strip-ansi@3.0.1  deduped
+│   │ │ │ │ └── supports-color@2.0.0 
+│   │ │ │ ├── esutils@2.0.2  deduped
+│   │ │ │ └── js-tokens@3.0.1 
+│   │ │ ├── babel-messages@6.23.0  deduped
+│   │ │ ├── babel-runtime@6.23.0  deduped
+│   │ │ ├── babel-types@6.25.0  deduped
+│   │ │ ├── babylon@6.17.4  deduped
+│   │ │ ├── debug@2.6.8  deduped
+│   │ │ ├── globals@9.18.0 
+│   │ │ ├─┬ invariant@2.2.2 
+│   │ │ │ └─┬ loose-envify@1.3.1 
+│   │ │ │   └── js-tokens@3.0.1  deduped
+│   │ │ └── lodash@4.17.4  deduped
+│   │ ├─┬ babel-types@6.25.0 
+│   │ │ ├── babel-runtime@6.23.0  deduped
+│   │ │ ├── esutils@2.0.2  deduped
+│   │ │ ├── lodash@4.17.4  deduped
+│   │ │ └── to-fast-properties@1.0.3 
+│   │ ├── babylon@6.17.4 
+│   │ ├── istanbul-lib-coverage@1.1.1 
+│   │ └── semver@5.3.0  deduped
+│   ├─┬ request@2.81.0 
+│   │ ├── aws-sign2@0.6.0 
+│   │ ├── aws4@1.6.0 
+│   │ ├── caseless@0.12.0 
+│   │ ├─┬ combined-stream@1.0.5 
+│   │ │ └── delayed-stream@1.0.0 
+│   │ ├── extend@3.0.1 
+│   │ ├── forever-agent@0.6.1 
+│   │ ├─┬ form-data@2.1.4 
+│   │ │ ├── asynckit@0.4.0 
+│   │ │ ├── combined-stream@1.0.5  deduped
+│   │ │ └── mime-types@2.1.15  deduped
+│   │ ├─┬ har-validator@4.2.1 
+│   │ │ ├─┬ ajv@4.11.8 
+│   │ │ │ ├── co@4.6.0 
+│   │ │ │ └─┬ json-stable-stringify@1.0.1 
+│   │ │ │   └── jsonify@0.0.0 
+│   │ │ └── har-schema@1.0.5 
+│   │ ├─┬ hawk@3.1.3 
+│   │ │ ├─┬ boom@2.10.1 
+│   │ │ │ └── hoek@2.16.3  deduped
+│   │ │ ├─┬ cryptiles@2.0.5 
+│   │ │ │ └── boom@2.10.1  deduped
+│   │ │ ├── hoek@2.16.3 
+│   │ │ └─┬ sntp@1.0.9 
+│   │ │   └── hoek@2.16.3  deduped
+│   │ ├─┬ http-signature@1.1.1 
+│   │ │ ├── assert-plus@0.2.0 
+│   │ │ ├─┬ jsprim@1.4.0 
+│   │ │ │ ├── assert-plus@1.0.0 
+│   │ │ │ ├── extsprintf@1.0.2 
+│   │ │ │ ├── json-schema@0.2.3 
+│   │ │ │ └─┬ verror@1.3.6 
+│   │ │ │   └── extsprintf@1.0.2  deduped
+│   │ │ └─┬ sshpk@1.13.1 
+│   │ │   ├── asn1@0.2.3  deduped (git+https://github.com/mcavage/node-asn1.git#2c2a19e285a609adfca36a0114bb5b86cf4ac61b)
+│   │ │   ├── assert-plus@1.0.0 
+│   │ │   ├─┬ bcrypt-pbkdf@1.0.1 
+│   │ │   │ └── tweetnacl@0.14.5  deduped
+│   │ │   ├─┬ dashdash@1.14.1 
+│   │ │   │ └── assert-plus@1.0.0 
+│   │ │   ├─┬ ecc-jsbn@0.1.1 
+│   │ │   │ └── jsbn@0.1.1  deduped
+│   │ │   ├─┬ getpass@0.1.7 
+│   │ │   │ └── assert-plus@1.0.0 
+│   │ │   ├── jsbn@0.1.1 
+│   │ │   └── tweetnacl@0.14.5 
+│   │ ├── is-typedarray@1.0.0 
+│   │ ├── isstream@0.1.2  deduped
+│   │ ├── json-stringify-safe@5.0.1  deduped
+│   │ ├─┬ mime-types@2.1.15 
+│   │ │ └── mime-db@1.27.0 
+│   │ ├── oauth-sign@0.8.2 
+│   │ ├── performance-now@0.2.0 
+│   │ ├── qs@6.4.0 
+│   │ ├── safe-buffer@5.1.1 
+│   │ ├── stringstream@0.0.5 
+│   │ ├─┬ tough-cookie@2.3.2 
+│   │ │ └── punycode@1.4.1 
+│   │ ├─┬ tunnel-agent@0.6.0 
+│   │ │ └── safe-buffer@5.1.1  deduped
+│   │ └── uuid@3.1.0  deduped
+│   └── uuid@3.1.0  deduped
+├─┬ config@1.26.1 
+│ ├── json5@0.4.0 
+│ └── os-homedir@1.0.2 
+├─┬ digitalproperty-network@0.0.9 
+│ └── digitalproperty-model@0.0.17 
+├─┬ jsonfile@2.4.0 
+│ └── graceful-fs@4.1.11 
+├── lodash@4.17.4 
+├─┬ mocha@3.4.2 
+│ ├── browser-stdout@1.3.0 
+│ ├─┬ commander@2.9.0 
+│ │ └── graceful-readlink@1.0.1 
+│ ├─┬ debug@2.6.0 
+│ │ └── ms@0.7.2 
+│ ├── diff@3.2.0 
+│ ├── escape-string-regexp@1.0.5 
+│ ├─┬ glob@7.1.1 
+│ │ ├── fs.realpath@1.0.0 
+│ │ ├─┬ inflight@1.0.6 
+│ │ │ ├── once@1.4.0  deduped
+│ │ │ └── wrappy@1.0.2 
+│ │ ├── inherits@2.0.3 
+│ │ ├── minimatch@3.0.4  deduped
+│ │ ├─┬ once@1.4.0 
+│ │ │ └── wrappy@1.0.2  deduped
+│ │ └── path-is-absolute@1.0.1 
+│ ├── growl@1.9.2 
+│ ├── json3@3.3.2 
+│ ├─┬ lodash.create@3.1.1 
+│ │ ├─┬ lodash._baseassign@3.2.0 
+│ │ │ ├── lodash._basecopy@3.0.1 
+│ │ │ └─┬ lodash.keys@3.1.2 
+│ │ │   ├── lodash._getnative@3.9.1 
+│ │ │   ├── lodash.isarguments@3.1.0 
+│ │ │   └── lodash.isarray@3.0.4 
+│ │ ├── lodash._basecreate@3.0.3 
+│ │ └── lodash._isiterateecall@3.0.9 
+│ ├─┬ mkdirp@0.5.1 
+│ │ └── minimist@0.0.8 
+│ └─┬ supports-color@3.1.2 
+│   └── has-flag@1.0.0 
+├─┬ sinon@1.17.7 
+│ ├─┬ formatio@1.1.1 
+│ │ └── samsam@1.1.2  deduped
+│ ├── lolex@1.3.2 
+│ ├── samsam@1.1.2 
+│ └─┬ util@0.10.3 
+│   └── inherits@2.0.1 
+├─┬ sinon-as-promised@4.0.3 
+│ ├─┬ create-thenable@1.0.2 
+│ │ ├─┬ object.omit@2.0.1 
+│ │ │ ├─┬ for-own@0.1.5 
+│ │ │ │ └── for-in@1.0.2 
+│ │ │ └── is-extendable@0.1.1 
+│ │ └── unique-concat@0.2.2 
+│ └── native-promise-only@0.8.1 
+├── sprintf-js@1.1.1 
+├─┬ winston@2.3.1 
+│ ├── async@1.0.0 
+│ ├── colors@1.0.3  deduped
+│ ├── cycle@1.0.3 
+│ ├── eyes@0.1.8 
+│ ├── isstream@0.1.2 
+│ └── stack-trace@0.0.10 
+└─┬ yargs@6.6.0 
+  ├── camelcase@3.0.0 
+  ├─┬ cliui@3.2.0 
+  │ ├── string-width@1.0.2  deduped
+  │ ├─┬ strip-ansi@3.0.1 
+  │ │ └── ansi-regex@2.1.1 
+  │ └─┬ wrap-ansi@2.1.0 
+  │   ├── string-width@1.0.2  deduped
+  │   └── strip-ansi@3.0.1  deduped
+  ├── decamelize@1.2.0 
+  ├── get-caller-file@1.0.2 
+  ├─┬ os-locale@1.4.0 
+  │ └─┬ lcid@1.0.0 
+  │   └── invert-kv@1.0.0 
+  ├─┬ read-pkg-up@1.0.1 
+  │ ├─┬ find-up@1.1.2 
+  │ │ ├─┬ path-exists@2.1.0 
+  │ │ │ └── pinkie-promise@2.0.1  deduped
+  │ │ └─┬ pinkie-promise@2.0.1 
+  │ │   └── pinkie@2.0.4 
+  │ └─┬ read-pkg@1.1.0 
+  │   ├─┬ load-json-file@1.1.0 
+  │   │ ├── graceful-fs@4.1.11  deduped
+  │   │ ├─┬ parse-json@2.2.0 
+  │   │ │ └─┬ error-ex@1.3.1 
+  │   │ │   └── is-arrayish@0.2.1 
+  │   │ ├── pify@2.3.0 
+  │   │ ├── pinkie-promise@2.0.1  deduped
+  │   │ └─┬ strip-bom@2.0.0 
+  │   │   └── is-utf8@0.2.1 
+  │   ├─┬ normalize-package-data@2.3.8 
+  │   │ ├── hosted-git-info@2.4.2 
+  │   │ ├─┬ is-builtin-module@1.0.0 
+  │   │ │ └── builtin-modules@1.1.1 
+  │   │ ├── semver@5.3.0  deduped
+  │   │ └─┬ validate-npm-package-license@3.0.1 
+  │   │   ├─┬ spdx-correct@1.0.2 
+  │   │   │ └── spdx-license-ids@1.2.2 
+  │   │   └── spdx-expression-parse@1.0.4 
+  │   └─┬ path-type@1.1.0 
+  │     ├── graceful-fs@4.1.11  deduped
+  │     ├── pify@2.3.0  deduped
+  │     └── pinkie-promise@2.0.1  deduped
+  ├── require-directory@2.1.1 
+  ├── require-main-filename@1.0.1 
+  ├── set-blocking@2.0.0 
+  ├─┬ string-width@1.0.2 
+  │ ├── code-point-at@1.1.0 
+  │ ├─┬ is-fullwidth-code-point@1.0.0 
+  │ │ └── number-is-nan@1.0.1 
+  │ └── strip-ansi@3.0.1  deduped
+  ├── which-module@1.0.0 
+  ├── y18n@3.2.1 
+  └─┬ yargs-parser@4.2.1 
+    └── camelcase@3.0.0 
